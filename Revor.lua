@@ -10279,6 +10279,10 @@ LuaTele.sendText(msg_chat_id,msg_id,"⌔︙ارسل لي التوجيه الان
 return false
 end
 
+if text == 'عبدو' then
+return LuaTele.sendText(msg_chat_id,msg_id'ايش بدك مني')
+end
+
 if text == ("الردود العامه ⌔") then 
 if not msg.ControllerBot then 
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔︙هاذا الامر يخص { '..Controller_Num(1)..' }* ',"md",true)  
