@@ -10280,7 +10280,7 @@ return false
 end
 
 if text == "kosmk" then
-LuaTele.sendText(msg_chat_id,msg_id,"omk 7lwa","md")
+LuaTele.sendText(msg_chat_id,msg_id,"omk 7lwa")
 end
 
 if text == ("الردود العامه ⌔") then 
