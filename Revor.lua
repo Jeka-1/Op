@@ -10280,7 +10280,7 @@ return false
 end
 
 if text == 'عبدو' then
-return LuaTele.sendText(msg_chat_id,msg_id'ايش بدك مني')
+return LuaTele.sendText(msg_chat_id,msg_id'ايش بدك مني',"md",true)
 end
 
 if text == ("الردود العامه ⌔") then 
