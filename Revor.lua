@@ -10279,8 +10279,8 @@ LuaTele.sendText(msg_chat_id,msg_id,"⌔︙ارسل لي التوجيه الان
 return false
 end
 
-if text == 'عبدو' then
-return LuaTele.sendText(msg_chat_id,msg_id'ايش بدك مني',"md",true)
+if text == "kosmk" then
+LuaTele.sendText(msg_chat_id,msg_id,"omk 7lwa","md")
 end
 
 if text == ("الردود العامه ⌔") then 
